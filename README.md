@@ -3,7 +3,7 @@
 To run:
 ```
 docker run \
-	--name cups --p 631:631 \
+	--name cups -p 631:631 \
 	-v /opt/cups/config:/etc/cups \
 	-v /opt/cups/log:/var/log/cups \
 	-v /opt/cups/spool:/var/spool/cups \
