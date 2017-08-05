@@ -1,4 +1,5 @@
 FROM debian:stretch
+LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
 COPY start.sh /start.sh
 
